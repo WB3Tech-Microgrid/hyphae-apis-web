@@ -13,7 +13,7 @@
   
   <distributionManagement>
    <repository>
-     <id>wb3tech-microgrid-github</id>
+     <id>wb3tech-microgrid-hyphae-github</id>
      <name>GitHub WB3Tech Microgrid Apache Maven Packages</name>
      <url>https://maven.pkg.github.com/WB3Tech-Microgrid/hyphae-apis</url>
    </repository>
