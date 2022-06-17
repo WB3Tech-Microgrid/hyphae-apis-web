@@ -10,6 +10,14 @@
   <version>3.0.0</version>
 
   <name>APIS WEB</name>
+  
+  <distributionManagement>
+   <repository>
+     <id>wb3tech-microgrid-github</id>
+     <name>GitHub WB3Tech Microgrid Apache Maven Packages</name>
+     <url>https://maven.pkg.github.com/WB3Tech-Microgrid/hyphae-apis</url>
+   </repository>
+  </distributionManagement>
 
   <dependencyManagement>
     <dependencies>
