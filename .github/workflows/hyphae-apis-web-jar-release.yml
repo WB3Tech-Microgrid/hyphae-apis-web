@@ -5,7 +5,7 @@ name: Hyphae APIS Web - Java Artifact - Release Workflow
 
 on:
   release:
-    types: [created]
+    types: [published]
 
 jobs:
   build:
