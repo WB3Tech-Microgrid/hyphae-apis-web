@@ -5,7 +5,7 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
 
-  <groupId>jp.co.sony.csl.dcoes.apis</groupId>
+  <groupId>com.wb3tech.hyphae.apis</groupId>
   <artifactId>apis-web</artifactId>
   <version>3.0.0</version>
 
