@@ -22,7 +22,7 @@ jobs:
       with:
         java-version: '11'
         distribution: 'temurin'
-        server-id: wb3tech-hyphae-github # Value of the distributionManagement/repository/id field of the pom.xml
+        server-id: wb3tech-microgrid-hyphae-github # Value of the distributionManagement/repository/id field of the pom.xml
         settings-path: ${{ github.workspace }} # location for the settings.xml file
 
     - name: Build with Maven
