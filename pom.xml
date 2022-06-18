@@ -3,7 +3,7 @@
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <apis-bom.version>0.1.0</apis-bom-version>
+    <apis-bom.version>0.1.0</apis-bom.version>
   </properties>
 
   <groupId>com.wb3tech.hyphae.apis</groupId>
