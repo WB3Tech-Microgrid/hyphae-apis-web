@@ -3,6 +3,7 @@
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <apis-bom.version>0.1.0</apis-bom-version>
   </properties>
 
   <groupId>com.wb3tech.hyphae.apis</groupId>
@@ -11,12 +12,20 @@
 
   <name>APIS WEB</name>
 
+  <distributionManagement>
+   <repository>
+     <id>wb3tech-microgrid-hyphae-github</id>
+     <name>GitHub WB3Tech Microgrid Apache Maven Packages</name>
+     <url>https://maven.pkg.github.com/WB3tech-Microgrid/hyphae-apis-web</url>
+   </repository>
+  </distributionManagement>
+
   <dependencyManagement>
     <dependencies>
       <dependency>
         <groupId>com.wb3tech.hyphae.apis</groupId>
         <artifactId>apis-bom</artifactId>
-        <version>${project.version}</version>
+        <version>${apis-bom.version}</version>
         <type>pom</type>
         <scope>import</scope>
       </dependency>
